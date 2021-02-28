@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #F69627;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.logo-name {
+    margin-left: 30px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: -22%;
+    z-index: 1;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-bar li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 7px;
+    margin: 0px 50px 0px 2px;
+    border: 1.5px;
+}
+
+.menu-bar li:hover {
+    background: #3F3F3F;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+    color: black;
+    padding: 3px;
+}
+
+.menu-bar li a:hover {
+    color: white;
+}
+
+.middle-part {
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   /* flex-direction: row; */
+   border: 1px solid black;
+   background: #3F3F3F;
+   min-height: 75vh;
+}
+
+.middle-part .left-part {
+    max-width: 75vh;
+    top: -10%;
+
+}
+
+.middle-part .left-part .chef-logo {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    margin: 10px;
+    left: 10%;
+}
+
+.middle-part .left-part p {
+    font-size: 40px;
+    padding: 30px;
+    color: #F69627;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 70vh;
+    flex-wrap: wrap;
+    z-index: -1;
+    background: #F69627;
+}
+
+.container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container .text {
+    position: absolute;
+    top: 2%;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.container .container .card {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .content .card img {
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 5;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 50vh;
+    background: #3F3F3F;
+}
+
+.left {
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #F69627;
+}
+
+.left .contact-logo {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 1px;
+    position: relative;
+    bottom: -38px;
+    left: -12%;
+}
+
+.right {
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #F69627;
+}
+
+.right .icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.right .icons li {
+    padding: 0.5rem;
+    margin: 1rem;
+    list-style: none;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F69627;
+    font-weight: bold;
+}
